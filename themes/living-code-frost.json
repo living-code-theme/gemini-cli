@@ -1,0 +1,36 @@
+{
+  "name": "Living Code Frost",
+  "type": "custom",
+  "background": {
+    "primary": "#0a1016",
+    "diff": {
+      "added": "#161f21",
+      "removed": "#1b1a1f"
+    }
+  },
+  "text": {
+    "primary": "#e2e9ee",
+    "secondary": "#9ba0a2",
+    "link": "#b6e2df",
+    "accent": "#43a997",
+    "response": "#e2e9ee"
+  },
+  "border": {
+    "default": "#232a30",
+    "focused": "#43a997"
+  },
+  "status": {
+    "success": "#a2cb9d",
+    "warning": "#e9c897",
+    "error": "#d68079"
+  },
+  "ui": {
+    "comment": "#7d8489",
+    "symbol": "#7d8489",
+    "gradient": [
+      "#43a997",
+      "#98bacd",
+      "#bc9ec6"
+    ]
+  }
+}

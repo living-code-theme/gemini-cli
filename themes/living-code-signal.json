@@ -1,0 +1,36 @@
+{
+  "name": "Living Code Signal",
+  "type": "custom",
+  "background": {
+    "primary": "#05080b",
+    "diff": {
+      "added": "#12171b",
+      "removed": "#14191c"
+    }
+  },
+  "text": {
+    "primary": "#e2e9ee",
+    "secondary": "#9ba0a2",
+    "link": "#00a692",
+    "accent": "#00a692",
+    "response": "#e2e9ee"
+  },
+  "border": {
+    "default": "#1d2226",
+    "focused": "#00a692"
+  },
+  "status": {
+    "success": "#c8cfd4",
+    "warning": "#c8cfd4",
+    "error": "#e2e9ee"
+  },
+  "ui": {
+    "comment": "#747c80",
+    "symbol": "#747c80",
+    "gradient": [
+      "#00a692",
+      "#c8cfd4",
+      "#00a692"
+    ]
+  }
+}

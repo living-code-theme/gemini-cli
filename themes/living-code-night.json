@@ -1,0 +1,36 @@
+{
+  "name": "Living Code Night",
+  "type": "custom",
+  "background": {
+    "primary": "#05080b",
+    "diff": {
+      "added": "#0e1715",
+      "removed": "#161113"
+    }
+  },
+  "text": {
+    "primary": "#e2e9ee",
+    "secondary": "#9ba0a2",
+    "link": "#9ae0dd",
+    "accent": "#00a692",
+    "response": "#e2e9ee"
+  },
+  "border": {
+    "default": "#1d2226",
+    "focused": "#00a692"
+  },
+  "status": {
+    "success": "#8acb83",
+    "warning": "#f0be6d",
+    "error": "#e96560"
+  },
+  "ui": {
+    "comment": "#747c80",
+    "symbol": "#747c80",
+    "gradient": [
+      "#00a692",
+      "#80b6d3",
+      "#bf91cd"
+    ]
+  }
+}

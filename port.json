@@ -1,0 +1,29 @@
+{
+  "$schema": "https://living-code.dev/port.schema.json",
+  "schemaVersion": 1,
+  "name": "Gemini CLI",
+  "slug": "gemini-cli",
+  "group": "AI & Agents",
+  "emoji": "♊",
+  "icon": "googlegemini",
+  "description": "Living Code for Gemini CLI: standalone custom theme files for conversational text, borders, status indicators and diff backgrounds.",
+  "homepage": "https://github.com/google-gemini/gemini-cli",
+  "quick": "Install the native theme files",
+  "aliases": [
+    "gemini",
+    "google gemini"
+  ],
+  "flavors": [
+    "night",
+    "frost",
+    "paper",
+    "signal"
+  ],
+  "files": [
+    "themes/living-code-night.json",
+    "themes/living-code-frost.json",
+    "themes/living-code-paper.json",
+    "themes/living-code-signal.json"
+  ],
+  "images": []
+}

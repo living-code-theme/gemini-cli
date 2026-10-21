@@ -1,0 +1,37 @@
+{
+  "repository": "google-gemini/gemini-cli",
+  "revision": "04e54d05c4f2a16808db9abd8cb3ee1210dca9a9",
+  "paths": [
+    "docs/cli/themes.md",
+    "packages/cli/src/ui/themes/semantic-tokens.ts"
+  ],
+  "checked": "2026-10-21",
+  "contract": "json",
+  "groups": {
+    "background": [
+      "primary",
+      "diff"
+    ],
+    "text": [
+      "primary",
+      "secondary",
+      "link",
+      "accent",
+      "response"
+    ],
+    "border": [
+      "default",
+      "focused"
+    ],
+    "status": [
+      "success",
+      "warning",
+      "error"
+    ],
+    "ui": [
+      "comment",
+      "symbol",
+      "gradient"
+    ]
+  }
+}

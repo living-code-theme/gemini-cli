@@ -1,0 +1,36 @@
+{
+  "name": "Living Code Paper",
+  "type": "custom",
+  "background": {
+    "primary": "#f4f7f9",
+    "diff": {
+      "added": "#e1eae5",
+      "removed": "#eee5e6"
+    }
+  },
+  "text": {
+    "primary": "#12171a",
+    "secondary": "#50565a",
+    "link": "#1f7074",
+    "accent": "#187d6e",
+    "response": "#12171a"
+  },
+  "border": {
+    "default": "#d2d8dd",
+    "focused": "#187d6e"
+  },
+  "status": {
+    "success": "#3b7a35",
+    "warning": "#8f6213",
+    "error": "#a74541"
+  },
+  "ui": {
+    "comment": "#6b7378",
+    "symbol": "#6b7378",
+    "gradient": [
+      "#187d6e",
+      "#2b6991",
+      "#81558e"
+    ]
+  }
+}
