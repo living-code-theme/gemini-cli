@@ -1,0 +1,8 @@
+{
+  "downloads": [
+    {
+      "source": "themes/living-code-{flavor}.json",
+      "destination": "{home}/.gemini/themes/living-code-{flavor}.json"
+    }
+  ]
+}

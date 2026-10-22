@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "scene": "Gemini CLI native TUI using an isolated profile. No model request.",
+  "versionCommand": [
+    "gemini",
+    "--version"
+  ],
+  "fixtures": []
+}

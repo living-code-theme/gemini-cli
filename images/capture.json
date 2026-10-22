@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "scene": "Gemini CLI native TUI using an isolated profile. No model request.",
+  "inputs": {
+    "capture/app.py": "726948728753d44c5a9ee63ac7426d9f68d0c4a668fc46a2eb0cef119f7dedee",
+    "capture/config.json": "0c4be404e2b7049b29dea230987c8cf761a8a2c39abc9262d84aa9216484df44",
+    "capture/flake.lock": "e3750f7ba25d0b1971722cdd83b2f07e32528980a4d6a9a1ea55177747de5752",
+    "capture/flake.nix": "6e9691f30c9ffda59ae67a4961c33d1235b78ad86e6e551ddf3b3cbde0f0340e",
+    "palette/theme.json": "d735cf005e3b2807953226c0119e384f6f8a3d2b3167443371cb302a8c689cdb",
+    "port.json": "6800590a818cb98b04cf1ad6a200eda4e003a9390b79b75e4ca35095867e9e68",
+    "scripts/capture.py": "6830da447e48a4ab5511012b5222763677214e8a98683b94c60248765202ca9f",
+    "themes/living-code-frost.json": "ee56a8e9001461ba8a0aba5b23bf7ba42cc7842eb87b68d9ec8e4d9648fa5821",
+    "themes/living-code-night.json": "7cbe899690c652b7ab7a98bc00cc472cb65980e7424b78274460bc627d69523b",
+    "themes/living-code-paper.json": "8efa10027d46b4face0b56ff88c77349e7bbbc804ddc66a0deb001d071a1f3aa",
+    "themes/living-code-signal.json": "2970532a0e0fd78a230ef787f227b8dc5695aca6273f8789d03d56d0ef1d1522"
+  },
+  "images": {
+    "night": {
+      "path": "images/night.png",
+      "sha256": "40d9d1b4319c1ad58c8970395e4c74360778656dd935157af54a9dc20c9c41f6",
+      "application": "0.47.0",
+      "paletteColors": [
+        "#00a692",
+        "#05080b",
+        "#747c80",
+        "#80b6d3",
+        "#9ba0a2",
+        "#bf91cd",
+        "#e2e9ee",
+        "#e96560"
+      ]
+    },
+    "frost": {
+      "path": "images/frost.png",
+      "sha256": "36a00c5af83c12a7c3134b7aed4e34c83bcc55f8abef6574c40813ca66de2d4c",
+      "application": "0.47.0",
+      "paletteColors": [
+        "#0a1016",
+        "#43a997",
+        "#7d8489",
+        "#98bacd",
+        "#9ba0a2",
+        "#bc9ec6",
+        "#d68079",
+        "#e2e9ee"
+      ]
+    },
+    "paper": {
+      "path": "images/paper.png",
+      "sha256": "0e012c9ccaa2bb5cc430ca621870d216e31eed4465d4b2dc90dfa5117eae9458",
+      "application": "0.47.0",
+      "paletteColors": [
+        "#12171a",
+        "#187d6e",
+        "#2b6991",
+        "#50565a",
+        "#6b7378",
+        "#81558e",
+        "#a74541",
+        "#f4f7f9"
+      ]
+    },
+    "signal": {
+      "path": "images/signal.png",
+      "sha256": "eed7268dab17da249d861a011afc0d4f70125d86781b32124aea9ec15e61966a",
+      "application": "0.47.0",
+      "paletteColors": [
+        "#00a692",
+        "#05080b",
+        "#747c80",
+        "#9ba0a2",
+        "#c8cfd4",
+        "#e2e9ee"
+      ]
+    }
+  }
+}
