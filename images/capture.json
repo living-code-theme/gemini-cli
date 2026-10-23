@@ -1,14 +1,15 @@
 {
   "schemaVersion": 1,
-  "scene": "Gemini CLI native TUI using an isolated profile. No model request.",
+  "scene": "Gemini CLI native conversation and syntax highlighting, importing a labeled local code-review demo. No model request or user credentials.",
   "inputs": {
-    "capture/app.py": "726948728753d44c5a9ee63ac7426d9f68d0c4a668fc46a2eb0cef119f7dedee",
-    "capture/config.json": "0c4be404e2b7049b29dea230987c8cf761a8a2c39abc9262d84aa9216484df44",
+    "capture/app.py": "bb34d2001623416b6607d3bef235b0fbdaa91de35adfe8441fb2825ef91feb6b",
+    "capture/config.json": "8b04acefded72c64972727c80b7ebde52a099473bd4f5c47b7412d33a8729e75",
     "capture/flake.lock": "e3750f7ba25d0b1971722cdd83b2f07e32528980a4d6a9a1ea55177747de5752",
-    "capture/flake.nix": "254e491710042e05ec68430d57c66888659b71e47f72d19dfc5258e8e8ad1b85",
+    "capture/flake.nix": "9acf80400ad38124efebfbcbde900d5191ffecacdbdd3f2bb314a72d0f1f92ab",
+    "capture/review.md": "eab4a3ae509f01d72a9370f877cb7d69ceeb5418ad23645f465d9182d47f41ab",
     "palette/theme.json": "d735cf005e3b2807953226c0119e384f6f8a3d2b3167443371cb302a8c689cdb",
     "port.json": "6800590a818cb98b04cf1ad6a200eda4e003a9390b79b75e4ca35095867e9e68",
-    "scripts/capture.py": "1fefb763f00567b795b92388b29e3e8c3fd58bd0eefa9c2f31e43663cad7a308",
+    "scripts/capture.py": "ea56b3784525095d9175887431004ce5df674f17b45c7e5a8d0399aa68615c33",
     "themes/living-code-frost.json": "ee56a8e9001461ba8a0aba5b23bf7ba42cc7842eb87b68d9ec8e4d9648fa5821",
     "themes/living-code-night.json": "7cbe899690c652b7ab7a98bc00cc472cb65980e7424b78274460bc627d69523b",
     "themes/living-code-paper.json": "8efa10027d46b4face0b56ff88c77349e7bbbc804ddc66a0deb001d071a1f3aa",
@@ -17,52 +18,56 @@
   "images": {
     "night": {
       "path": "images/night.png",
-      "sha256": "40d9d1b4319c1ad58c8970395e4c74360778656dd935157af54a9dc20c9c41f6",
+      "sha256": "8a397f26004c4605985205285fe8d20d42487a262c286205eb795645c1fc14df",
       "application": "0.47.0",
       "paletteColors": [
         "#00a692",
         "#05080b",
         "#747c80",
-        "#80b6d3",
+        "#8acb83",
+        "#9ae0dd",
         "#9ba0a2",
-        "#bf91cd",
         "#e2e9ee",
-        "#e96560"
+        "#e96560",
+        "#f0be6d"
       ]
     },
     "frost": {
       "path": "images/frost.png",
-      "sha256": "36a00c5af83c12a7c3134b7aed4e34c83bcc55f8abef6574c40813ca66de2d4c",
+      "sha256": "75ac690ef38e9fc56bdd6b47ef47d151eda6a6aeaac294c02baaf965770a156f",
       "application": "0.47.0",
       "paletteColors": [
         "#0a1016",
         "#43a997",
         "#7d8489",
-        "#98bacd",
         "#9ba0a2",
-        "#bc9ec6",
+        "#a2cb9d",
+        "#b6e2df",
         "#d68079",
-        "#e2e9ee"
+        "#e2e9ee",
+        "#e9c897"
       ]
     },
     "paper": {
       "path": "images/paper.png",
-      "sha256": "0e012c9ccaa2bb5cc430ca621870d216e31eed4465d4b2dc90dfa5117eae9458",
+      "sha256": "578e6295981039840a499f467409a237b1c310494622196f119cee8fde400f4c",
       "application": "0.47.0",
       "paletteColors": [
         "#12171a",
         "#187d6e",
-        "#2b6991",
+        "#1f7074",
+        "#3b7a35",
         "#50565a",
         "#6b7378",
-        "#81558e",
+        "#8f6213",
         "#a74541",
+        "#ebeff2",
         "#f4f7f9"
       ]
     },
     "signal": {
       "path": "images/signal.png",
-      "sha256": "eed7268dab17da249d861a011afc0d4f70125d86781b32124aea9ec15e61966a",
+      "sha256": "17a300e5e47b71acfcd919f81e0f5b8f476eb767ec9e9d7335ef001360160626",
       "application": "0.47.0",
       "paletteColors": [
         "#00a692",

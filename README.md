@@ -113,7 +113,9 @@ The distributable files are standalone `type: "custom"` theme documents, not ful
 
 Uses the documented standalone-file custom theme API. Gemini CLI permits theme paths only within the home directory: do not point it at a clone under `/tmp` or a system-wide location. Text, background, diff, border, status and UI groups are provided; code highlighting follows Gemini CLI’s derived theme behavior. Tests validate the nested format, not provider access or model output.
 
-Previews are captured programmatically from the actual application in an isolated profile. See [`capture/app.py`](capture/app.py) for the app-owned recipe and [`images/capture.json`](images/capture.json) for runtime, palette and image provenance. No mock interface is drawn.
+**Syntax limitation (Gemini CLI 0.47.0):** custom themes derive highlight.js colors from shared UI accents. Keywords/literals share an accent, numbers/classes share another, and function titles/parameters use the main foreground; independent syntax-role overrides are not supported. These couplings cannot reproduce Neovim’s separate keyword, constant, number, type, function and parameter roles. Exact parity needs an upstream syntax-theme API; screenshots retain Gemini CLI’s genuine native rendering.
+
+Previews are captured programmatically from the actual application in an isolated profile. See [`capture/app.py`](capture/app.py) for the app-owned recipe and [`images/capture.json`](images/capture.json) for runtime, palette and image provenance. No mock interface is drawn. The conversation is a labeled, repository-owned local demo, not a private session or a live model response. Recapturing needs no account, subscription or paid API call.
 
 ## Contributing
 

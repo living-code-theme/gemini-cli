@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "scene": "Gemini CLI native TUI using an isolated profile. No model request.",
+  "scene": "Gemini CLI native conversation and syntax highlighting, importing a labeled local code-review demo. No model request or user credentials.",
   "versionCommand": [
     "gemini",
     "--version"
   ],
-  "fixtures": []
+  "fixtures": ["capture/review.md"]
 }
