@@ -16,8 +16,7 @@
     "response": "#e2e9ee"
   },
   "border": {
-    "default": "#1d2226",
-    "focused": "#00a692"
+    "default": "#1d2226"
   },
   "status": {
     "success": "#8acb83",
@@ -27,6 +26,8 @@
   "ui": {
     "comment": "#747c80",
     "symbol": "#747c80",
+    "active": "#00a692",
+    "focus": "#00a692",
     "gradient": [
       "#00a692",
       "#80b6d3",

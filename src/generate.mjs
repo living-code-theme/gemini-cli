@@ -4,8 +4,8 @@ export function generate(flavors) {
     name: f.name, type: 'custom',
     background: { primary: f.r('bg'), diff: { added: f.mix('bg', 'added', 0.10), removed: f.mix('bg', 'removed', 0.10) } },
     text: { primary: f.r('fg'), secondary: f.r('fgMuted'), link: f.r('link'), accent: f.r('accent'), response: f.r('fg') },
-    border: { default: f.r('border'), focused: f.r('borderActive') },
+    border: { default: f.r('border') },
     status: { success: f.r('success'), warning: f.r('warning'), error: f.r('error') },
-    ui: { comment: f.r('comment'), symbol: f.r('operator'), gradient: [f.r('accent'), f.r('info'), f.r('decorator')] },
+    ui: { comment: f.r('comment'), symbol: f.r('operator'), active: f.r('accent'), focus: f.r('borderActive'), gradient: [f.r('accent'), f.r('info'), f.r('decorator')] },
   }, null, 2) + '\n' }));
 }

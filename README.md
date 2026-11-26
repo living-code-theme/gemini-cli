@@ -107,7 +107,7 @@ Set `ui.theme` to the absolute path of `~/.gemini/themes/living-code-signal.json
 
 ## Configuration
 
-The distributable files are standalone `type: "custom"` theme documents, not full settings files. As an alternative, insert a document into `ui.customThemes` using its `name` as the object key, then select it by name. A path selected through `ui.theme` must be removed before changing themes with `/theme`.
+The distributable files are standalone `type: "custom"` theme documents, not full settings files. Recent Gemini CLI releases also auto-discover custom themes placed in `~/.gemini/theme.json` (or `$XDG_CONFIG_HOME/gemini/theme.json`) without editing `settings.json`. As another alternative, insert a document into `ui.customThemes` using its `name` as the object key, then select it by name. A path selected through `ui.theme` must be removed before changing themes with `/theme`.
 
 ## Compatibility
 
