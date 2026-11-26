@@ -10,15 +10,15 @@
     "palette/theme.json": "d735cf005e3b2807953226c0119e384f6f8a3d2b3167443371cb302a8c689cdb",
     "port.json": "6800590a818cb98b04cf1ad6a200eda4e003a9390b79b75e4ca35095867e9e68",
     "scripts/capture.py": "ea56b3784525095d9175887431004ce5df674f17b45c7e5a8d0399aa68615c33",
-    "themes/living-code-frost.json": "ee56a8e9001461ba8a0aba5b23bf7ba42cc7842eb87b68d9ec8e4d9648fa5821",
-    "themes/living-code-night.json": "7cbe899690c652b7ab7a98bc00cc472cb65980e7424b78274460bc627d69523b",
-    "themes/living-code-paper.json": "8efa10027d46b4face0b56ff88c77349e7bbbc804ddc66a0deb001d071a1f3aa",
-    "themes/living-code-signal.json": "2970532a0e0fd78a230ef787f227b8dc5695aca6273f8789d03d56d0ef1d1522"
+    "themes/living-code-frost.json": "e1f4aa4b74cbce64d7b5d83e0526725454ef426d7a77f3f10bb47534100c89b8",
+    "themes/living-code-night.json": "316a1835566ffd03c48a473fb18c0d7f9b2f4516bdc2ee4b12105ef79d48738e",
+    "themes/living-code-paper.json": "a4b2351873c2c6aa48966ae195a5aebb6e9ca321ea2d8775d511287c9e43801c",
+    "themes/living-code-signal.json": "1ca636de1376d57441a163335fe5363e06e2b7c5b8599917677d8725eeaf4ade"
   },
   "images": {
     "night": {
       "path": "images/night.png",
-      "sha256": "8a397f26004c4605985205285fe8d20d42487a262c286205eb795645c1fc14df",
+      "sha256": "c18b7a0846036350ccfd9ab09fca0d2f0ddfb61eecba8695233cf223fad79e60",
       "application": "0.47.0",
       "paletteColors": [
         "#00a692",
@@ -34,7 +34,7 @@
     },
     "frost": {
       "path": "images/frost.png",
-      "sha256": "75ac690ef38e9fc56bdd6b47ef47d151eda6a6aeaac294c02baaf965770a156f",
+      "sha256": "fb9533a7cbcb9190432cb287dde03856fdae7d93bf1a2a5e6abf9a35806fdc2f",
       "application": "0.47.0",
       "paletteColors": [
         "#0a1016",
@@ -50,7 +50,7 @@
     },
     "paper": {
       "path": "images/paper.png",
-      "sha256": "578e6295981039840a499f467409a237b1c310494622196f119cee8fde400f4c",
+      "sha256": "c07acdba82df8fc9133405b6f7d5925487a572c68e2bf32ea91c8a94bd337616",
       "application": "0.47.0",
       "paletteColors": [
         "#12171a",
@@ -61,13 +61,12 @@
         "#6b7378",
         "#8f6213",
         "#a74541",
-        "#ebeff2",
         "#f4f7f9"
       ]
     },
     "signal": {
       "path": "images/signal.png",
-      "sha256": "17a300e5e47b71acfcd919f81e0f5b8f476eb767ec9e9d7335ef001360160626",
+      "sha256": "d5ce48a44f98061b8da5f79640b42b8e6990ae35e30cd02ae7372032825effd1",
       "application": "0.47.0",
       "paletteColors": [
         "#00a692",
